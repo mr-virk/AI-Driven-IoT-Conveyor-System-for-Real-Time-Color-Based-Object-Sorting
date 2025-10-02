@@ -38,9 +38,7 @@ System architecture includes:
 | esp32main/main.ino    	| ESP32 firmware for sorting logic and MQTT communication 	|
 | python/ai_color_analysis.py   | Python code for color detection and message publishing  	|
 | python/emqxsl-ca.crt          | TLS certificate for secure MQTT communication           	|
-| Schematic/Schematic.jpg    	| Circuit diagrams and hardware references                    	|
-| frame-design/conveyor_frame.dwg    	| DWG file for frame                     	|
-| frame-design/servo_bush.dwg    	|  DWG file for servo bush                   	|
+| Schematic.jpg    	| Circuit diagrams and hardware references                    	|
 
 ## UML Component Diagram
 
@@ -134,7 +132,7 @@ stateDiagram-v2
     Actuating --> Idle
 
 ```
-
+~~
 ## Mechanical Frame
 **Overview**
 The mechanical frame for the AI-IoT Color Sorting Conveyor was custom-designed in AutoCAD, supporting the conveyor belt, motors, servo actuator, ESP32/ESP32-CAM modules, sensors, and LCD display. Emphasis is on stability, modularity, and adaptability for rapid prototyping and expansion.
@@ -142,7 +140,7 @@ The mechanical frame for the AI-IoT Color Sorting Conveyor was custom-designed i
 **Included Files:**
 frame-design/conveyor_frame.dwg
 frame-design/servo_bush.dwg
+~~
 
 ## License
-
 Project released under the MIT License (`LICENSE`  file).
